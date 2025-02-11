@@ -2,5 +2,9 @@
 
 
 .bg-primary{
-    background-color: rgb(146, 1, 190);
+    background-color: #FC745F;
+}
+
+.bg-secondary{
+    background-color: #385A64;
 }
