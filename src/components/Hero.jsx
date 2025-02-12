@@ -10,7 +10,7 @@ function Hero() {
                 <p className='text-2xl'>I am a Designer</p>
                 <section className='flex gap-10'>
                     <button>
-                        <FaGithub className='text-[#FC745F] hover:text-black' size={40} />
+                        <a href='https://github.com/praveenr1408/Simple-Portfolio-Design-using-React-and-Tailwindcss' target='_blank'><FaGithub className='text-[#FC745F] hover:text-black' size={40} /></a>
                     </button>
 
                     <button>
