@@ -19,11 +19,13 @@ function Projects() {
       title: 'StudentManagement',
       image: StudentManagement
     },
+    
+    
   ]
 
 
   return (
-    <section id='project-section' className='w-full h-auto md:h-[100vh]  flex flex-col items-center justify-center gap-10 py-10'>
+    <section id='project-section' className='w-full h-auto  flex flex-col items-center justify-center gap-10 py-10'>
       {/* project titile and decription */}
       <div className='flex flex-col items-center gap-5'>
         <h1 className='text-center text-4xl font-bold'>Projects</h1>
