@@ -19,8 +19,8 @@ function Header() {
             </nav>
 
             {/* nav bar For mobile view */}
-            {toggle && <nav className='block md:hidden '>
-                <ul className='flex flex-col items-center justify-center text-white text-lg bg-secondary fixed top-[10vh] left-0 w-full h-1/4'>
+            {toggle && <nav className='block md:hidden'>
+                <ul className='flex flex-col items-center justify-center text-white text-lg bg-secondary fixed top-[10vh] left-0 w-full h-1/4 p-[80px]'>
                     {menus.map((menu, index) => (
                         <li className='py-1' key={index}>
                             <a href="#">{menu}</a>
